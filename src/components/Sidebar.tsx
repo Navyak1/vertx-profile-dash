@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Logo from './Logo';
-import { Dashboard, BarChart2, Users, Briefcase, User, Settings, Activity, LogOut } from 'lucide-react';
+import { LayoutDashboard, BarChart2, Users, Briefcase, User, Settings, Activity, LogOut } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useIsMobile } from '@/hooks/use-mobile';
 
@@ -12,7 +12,7 @@ type MenuItem = {
 };
 
 const menuItems: MenuItem[] = [
-  { name: 'Dashboard', icon: Dashboard, active: true },
+  { name: 'Dashboard', icon: LayoutDashboard, active: true },
   { name: 'Analytics', icon: BarChart2 },
   { name: 'Connect', icon: Users },
   { name: 'Dealroom', icon: Briefcase },
