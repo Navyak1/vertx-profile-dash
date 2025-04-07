@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for our dashboard
+				"vertx-purple": "#8B5CF6",
+				"vertx-dark": "#121212",
+				"vertx-gray": "#2A2A2A",
+				"vertx-gray-light": "#3A3A3A",
+				"vertx-green": "#10B981",
+				"vertx-blue": "#3B82F6"
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
